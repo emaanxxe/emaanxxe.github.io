@@ -1,0 +1,60 @@
+body
+			{
+				background-image:url('image1.jpeg');
+				
+				
+			}
+			.header
+			{
+				color:white;
+				text-align:center;
+				font-family: "Brush Script MT", cursive;;
+				margin:4px 4px ;
+				font-size:70px;
+				
+			}
+			
+			.botton
+			{
+				background-color:#FDF6E4;
+				border:none;
+				color:black;
+				padding:15px;
+				text-align:center;
+				text-decoration:none;
+				display:inline-block;
+				font-size:16px;
+				margin:4px 4px ;
+				border-radius:2rem ;
+				font-family:"Brush Script MT", cursive;;
+                                top:50%;
+                                left:50%;
+                                
+
+			}
+			
+			.botton:hover
+			{
+				background-color:transparent;
+				border:ridge 3px;
+				color:white;
+				padding:15px;
+				text-align:center;
+				text-decoration:none;
+				display:inline-block;
+				font-size:16px;
+				margin:4px 2px ;
+				border-radius:2rem ;
+				font-family:courier;
+				text-decoration:none;
+			}
+			
+			p
+			{
+				color:#FDF6E4 ;
+				font-family:"Brush Script MT", cursive;;
+				font-size:10px;
+			
+			
+			}
+			

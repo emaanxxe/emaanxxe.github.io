@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset="UTF-8">
+		<meta name="author" content="EL YAAGOUBI IMANE">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Skills</title>
+		
+		<style>
+		
+		
+			body
+			{
+				background-image:url('image1.jpeg');
+				margin:0 ;
+				padding:0;		
+			}
+			
+			body:before
+			{
+				content:'';
+				position:fixed;
+				width:100vw;
+				height:100vh ;
+				background-image:url('background.jpg');
+				background-position: center ;
+				background-repeat:no-repeat;
+				background-attachment:fixed;
+				background-size:cover;
+				-webkit-filter: blur(2px) ;
+				-moz-filter:blur(5px);
+					
+			}
+			
+			.background
+			{
+				position:absolute;
+				top:50%;
+				left:50%;
+				-webkit-transform:translate(-50% ,-50%);
+				-moz-transform:translate(-50% ,-50%);
+				-ms-transform:translate(-50% ,-50%);
+				-o-transform:translate(-50% ,-50%);
+				transform:translate(-50% ,-50%);
+				width:1000px ;
+				height:500px ;
+				padding:80px 40px;
+				background:rgba(0,0,0,0.8);
+            }
+
+		
+		
+			h1
+			{
+			    color:white;
+				text-align:center;
+				font-family:"Brush Script MT", cursive;;
+				font-size:30px;
+			
+			}
+			.text
+			{
+			width:100%;
+			max-width:600px;
+			color:white;
+			font-family:"Brush Script MT", cursive;;
+			padding:25px 30px;
+			
+			}
+			.name
+			{
+			font-size:25px;
+			color:white;
+			margin:10px 0;
+			
+			}
+		    
+			
+			.bar
+			{
+			height:10px;
+			width:153%;
+			background: #282828 ;
+			border-radius:3px;
+			color:white;
+			
+			}
+			
+			.porcentage
+			{
+			height:10px;
+			background: grey ;
+			border-radius:3px;
+			position:relative ;
+			
+			}
+			.porcentage:before
+			{
+			content:attr(per);
+			position:absolute ;
+			color:grey;
+			padding:4px 6px;
+			background:none;
+			font-size:12px ;
+			top:-25px;
+			right:-50px;
+			transforme:translateX(50%);
+			
+			}
+			
+			@media screen and (max-width:996px )
+			{
+				.body
+				{
+			    width:70%;
+			
+				}
+				body:before:
+				{
+			    width:70%;
+			
+				}
+				.background
+				{
+			    width:70%;
+			
+				}
+				.text
+				{
+			    width:70%;
+			
+				}
+				.name
+				{
+			    width:70%;
+			
+				}
+				.bar
+			    {
+				width:70%;
+				height:10px;
+				width:115%;
+				background: #282828 ;
+				border-radius:3px;
+				color:white;
+			
+			
+				}
+			
+				.porcentage
+				{
+				width:70%;
+			
+				}
+				
+			
+			}
+			
+			
+		</style>
+		
+	</head>
+	
+	<body>
+	<div class="background">	
+		<h1><ins>Skills</ins></h1><br>
+		
+		<div class="text">
+		
+          <div class="skills">
+			<div class="name"> <span> C </span> </div>
+				<div class="bar"> <span> </span> 
+					<div class="porcentage" per="70%" style="max-width:70%"> <span> </span> </div>
+				</div>
+			
+		  </div>
+		  
+		  <div class="skills">
+			<div class="name"> <span> Python </span> </div>
+			
+			<div class="bar"> <span></span> 
+				<div class="porcentage" per="20%" style="max-width:20%"> <span> </span> </div>
+			</div>
+			
+		  </div>
+		  
+		  <div class="skills">
+			<div class="name"> <span> Sql </span> </div>
+			<div class="bar"> <span></span> 
+				<div class="porcentage" per="60%" style="max-width:60%"> <span> </span> </div>
+			</div>
+		  </div>
+		  
+		  <div class="skills">
+			<div class="name"> <span> Html </span> </div>
+			<div class="bar"> <span></span>
+				<div class="porcentage" per="70%" style="max-width:70%"> <span> </span> </div>
+			</div>
+		  </div>
+		  
+		  <div class="skills">
+			<div class="name"> <span> CSS </span> </div>
+			<div class="bar"> <span></span> 
+				<div class="porcentage" per="20%" style="max-width:20%"> <span> </span> </div>
+			</div>
+		  </div>
+
+
+
+        </div>
+
+    </div>		
+		
+		
+	</body>
+	
+</html>	
